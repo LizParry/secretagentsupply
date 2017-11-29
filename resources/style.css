@@ -1,0 +1,81 @@
+html {
+  color: white;
+  font-size: 18px;
+  font-family: helvetica;
+
+}
+body {
+
+}
+/*HEADER*/
+.header {
+  width: 960px;
+}
+/*LOGO*/
+.logo {
+  display: flex;
+  background-color: black;
+  height: 3rem;
+  align-items: center;
+}
+.logo img {
+  height: 1.5rem;
+  margin-left: .5rem;
+}
+.logo h3 {
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-top: .66rem;
+  margin-bottom: .66rem;
+}
+/*MAIN BANNER*/
+.mainBanner {
+  display: flex;
+ 	height: 25rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.mainBannerChild {
+  display: flex;
+  background-color: black;
+  width: 20rem;
+  margin-top: 9rem;
+}
+.mainBannerChild p {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.mainBannerChild h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 3rem;
+	margin-top: .25rem;
+}
+/*NAVIGATION*/
+.navigation {
+  height: 2.5rem;
+}
+.navigation ul {
+  display: inline-flex;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: firebrick;
+  justify-content: space-around;
+  margin-top: 0;
+  width: 100%;
+}
+.navigation li {
+  font-size: 1rem;
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+  width: 100%;
+}
+/*MIDSECTION*/
+/*PRODUCTS*/
+/*LOCATION*/
+/*HOURS*/
+/*FOOTER*/
